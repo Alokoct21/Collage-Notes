@@ -1,0 +1,51 @@
+.nav-link {
+  font-size: 16px;
+  margin: 3px;
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar-nav {
+  text-align: center;
+  margin-right: 20px;
+}
+.menu-bar .navbar-toggler {
+  padding-right: 20px;
+  outline: none !important;
+  border: none !important;
+}
+.navbar .fa {
+  color: #fff !important;
+  font-size: 26px;
+}
+.nav-link:hover {
+  font-weight: 600;
+  border-bottom: 1px solid #fff;
+}
+.navbar-bran img {
+  width: 150px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-link:hover {
+    border-bottom: none !important;
+  }
+}
+
+.study-matrial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin: 30px;
+}
+.card img {
+  width: auto;
+  height: 40vh;
+}
+h1 {
+  font-size: 1.6rem !important;
+  margin-top: 20px !important;
+}
